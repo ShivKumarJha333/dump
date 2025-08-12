@@ -11,3 +11,6 @@ https://securityheaders.com
 
 http://www.webdnstools.com/dnstools/domain_check
 
+Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Lsa" | Select-Object RunAsPPL
+
+
